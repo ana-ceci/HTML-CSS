@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(249, 90, 90);
+            color:aquamarine;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        nav {
+            background-color: magenta;
+            box-shadow: 2px 2px 4px 1px black;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        nav>a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(236, 225, 225);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 20px 10px 20px;
+            box-shadow: 4px 4px 9px 0px;
+        }
+
+        article {
+            background-color: rgb(69, 184, 222);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px 0px;
+
+        }
+
+        article>aside {
+            background-color: lightgreen;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: rgb(39, 177, 180);
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            color: black;}
+
+            footer>p {
+                margin: 0px;
+            }
+
+            div#bola{
+                height: 100px;
+                width: 100px;
+                margin:10px;
+                background-color: orange;
+                border-radius: 50px;
+                color: black;
+            }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Sobre</a> |
+            <a href="#">Contato</a>|
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">Tecnologia da IA</section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <aside>
+                    <p> Artigo sobre Ana</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>© 2024 Meu site. Todos os direitos reservados.</p>
+
+    </footer>
+     <div id="bola"></div>
+</body>
+
+</html>
