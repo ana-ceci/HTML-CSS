@@ -2,48 +2,65 @@
 
 /* Versão Mobile first*/
 
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     padding: 0px;
-    margin:0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
- html{
-   
+html {
+
     height: 100vh;
 
 }
 
-body{
+body {
     background: black url(../imagens/back-phone.jpg) no repeat;
-background-size: cover;
-background-position: center center;
+    background-size: cover;
+    background-position: center center;
 
 }
 
-main{
+main {
     background-color: white;
     width: 90vw;
-    margin:auto;
-    margin: top 20px;;
+    margin: auto;
+    margin: top 20px;
+    ;
     border-radius: 10px;
-    padding:10px;
+    padding: 10px;
 }
 
-h1{
+h1 {
     text-align: center;
-    color:white;
+    color: white;
+    font-size: 2em;
     text-shadow: 2px 2px 5px black;
 }
 
-img{
+img {
     display: block;
     margin: auto;
 }
-img#phone{display: block;}
-img#tablet{display: none;}
-img#print{display: none;}
-img#pc{display: none;}
-img#tv{display: none;}
+
+img#phone {
+    display: block;
+}
+
+img#tablet {
+    display: none;
+}
+
+img#print {
+    display: none;
+}
+
+img#pc {
+    display: none;
+}
+
+img#tv {
+    display: none;
+}
