@@ -4,34 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible Box</title>
+    <title>Flexible centralizado</title>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
 
-    <style>
-        div.container {
-            background-color: brown;
-            display: flex;
-        }
+    body{
+        background-color: aquamarine;
+    }
 
-        div.item {
-            background-color: aqua;
-            border: 1px solid black;
-            text-align: center;
-            flex: auto;
-        }
-    </style>
+    main{
+        background-color: azure;
+        height: 100vh;
+        width: 100vw;
+
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section{
+        background-color: brown;
+        width: 200px;
+        height: 200px;
+    }
+</style>
+   
+    
 </head>
+<main>
+    <section>
+        <h1>Tela de login</h1>
+    </section>
+</main>
 
 
-<body>
-    <div class="container ">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
-    </div>
 </body>
 
 </html>
