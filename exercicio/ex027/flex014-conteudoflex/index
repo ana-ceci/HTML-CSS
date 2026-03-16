@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo Flex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="normal">
+        <h1>
+            Exemplos de conteúdo Flexivel</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit aliquam vel nulla perferendis, minus fugiat
+            necessitatibus, aperiam alias odit molestiae molestias pariatur dolorem! Reiciendis quas expedita cum in
+            doloribus reprehenderit.</p>
+    </header>
+    <main>
+        <section class="felx-content">
+            <article class=" media-text"></article>
+            <div class="text"></div>
+
+            <div clas="media"></div>
+            <article class="text-media">
+                <div clas="text"></div>
+                <div class="media"></div>
+            </article>
+        </section>
+        <section clas="normal">
+            <h2>Conteudo normal</h2>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas magnam voluptatum repellat libero,
+            delectus rem praesentium reprehenderit vel eveniet beatae numquam odit tempore molestiae. Mollitia maiores
+            ullam impedit exercitationem ex!
+        </section>
+    </main>
+</body>
+
+</html>
